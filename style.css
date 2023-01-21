@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins';
+}
+
+.container{
+    display: flex;
+    background: #1E1E1E;
+    
+}
+
+.wrapper{
+background: #262626;
+border-radius: 25px;
+margin: 20px 10px;
+}
+
+.left{
+   width: 21%;
+   height: 100vh;
+   position: fixed;
+
+}
+.left .sidebar .details{
+      text-align: center;
+}
+
+
+.sidebar img{
+    width: 18vw;
+    margin-left: 5px;
+    margin-top: 3px;
+    border-radius: 1000px;
+}
+
+h1{
+    color: white;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    color: #FFFFFF;
+}
+
+p{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color:rgba(255,255,255,0.5);
+}
+
+.left .details p{
+    margin-bottom: 30px;
+}
+
+.left .sidebar .btn{
+    background: #111111;
+    border-radius: 30px;
+    border: none;
+    padding: 17px 45px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: rgba(255,255,255,0.5);
+    width: 83%;
+    margin-bottom: 17px;
+}
+
+.left .sidebar .button{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+}
+.left .sidebar{
+    margin: 56px 20px;
+}
+
+.right{
+    width: 78%;
+    display: flex;
+    flex-direction: column;
+    /* margin-left: 22%; */
+    position: relative;
+    left: 22%;
+}
+.right .content{
+    /* height: 50vh; */
+    display: flex;
+    flex-direction: column;
+    padding: 56px 20px;
+    gap: 24px;
+    
+}
+.right .movie-info{
+   /* height: 50vh; */
+   display: flex;
+   flex-direction: column;
+   padding: 35px 50px;
+   gap: 18px;
+
+}
+
+.right .content-container{
+    display: flex;
+    gap: 25px;
+}
+
+.content-container .details p{
+    margin-bottom: 60px;
+}
+.content-container .details a{
+       font-weight: 400;
+       font-size: 18px;
+       line-height: 27px;
+       color: rgba(255,255,255,0.5);
+}
+
+.image img{
+    border-radius: 10px;
+    width: 34vw;
+    height: 43vh;
+}
+
+table{
+    border: 1px solid rgba(255,255,255,0.5);
+    border-radius: 25px;
+    border-collapse: collapse;
+    width: 100%;
+    font-weight: 400;
+       font-size: 18px;
+       line-height: 27px;
+       color: rgba(255,255,255,0.5);
+}
+
+th, td{
+    border: 1px solid rgba(255,255,255,0.5);
+    /* border-collapse: collapse; */
+}
+
+th{
+    border: 1px solid rgba(255,255,255,0.5);
+    /* border-collapse: collapse; */
+    padding: 9px 15px;
+    text-align: left;
+}
+
+td{
+    padding: 3px 15px;
+    text-align: left;
+
+}
+td:last-child,th:last-child{
+   border-right: none;
+}
